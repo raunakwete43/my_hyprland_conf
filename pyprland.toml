@@ -1,0 +1,20 @@
+[pyprland]
+plugins = [
+  "scratchpads",
+  "layout_center"
+]
+
+
+[scratchpads.term]
+animation = "fromTop"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+size = "75% 60%"
+
+[layout_center]
+margin = 10
+offset = [0, 30]
+next = "movefocus r"
+prev = "movefocus l"
+next2 = "movefocus d"
+prev2 = "movefocus u"
